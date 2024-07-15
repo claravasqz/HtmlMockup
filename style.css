@@ -7,23 +7,21 @@ header {
   /* height: 12vh; */
   margin: .5em;
 }
-h1 .ClaraVasquez {
+/* h1 .ClaraVasquez {
     display: none;
   }
-  
   h1:hover .Header {
     display: none;
   }
-  
+
   h1:hover .ClaraVasquez {
     display: inline;
     color: red;
     font-size: 20px;
-    
+    font-style: italic;
+  } */
 
-  }
-
-/* .Name:hover{
+.Name:hover{
     font-size: 20px;
     font-style: italic;
     color: red;
@@ -36,7 +34,7 @@ h1 .ClaraVasquez {
 }
 #divHeader{
     margin: 10px;
-} */
+}
 
 
 nav {
@@ -44,7 +42,62 @@ nav {
   margin: 1em;
 
   border-width: 4px;
-  height: 12vh;
+  /* height: 12vh; */
+}
+.navigationBar{
+    /* margin: 10px; */
+    background-color: rgb(228, 227, 227);
+    /* height: 60px; */
+    margin: 10px;
+    display: flex;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.Amazon{
+    border: solid darkgrey;    
+    /* height: 60px; */
+    /* width: 60px; */
+    padding: 10px;
+    width: 25%;
+    border-radius: 8px;
+    margin: 2px;
+    color: rgb(61, 91, 92);
+
+}
+.Amazon:hover{
+    background-color: rgb(209, 205, 205);
+}
+.Zara{
+  border: solid darkgrey;    
+  /* height: 60px; */
+  /* width: 60px; */
+  padding: 10px;
+  width: 25%;
+  border-radius: 8px;
+  margin: 2px;
+  color: rgb(61, 91, 92);
+}
+.Apple{
+  border: solid darkgrey;    
+  /* height: 60px; */
+  /* width: 60px; */
+  padding: 10px;
+  width: 25%;
+  border-radius: 8px;
+  margin: 2px;
+  color: rgb(61, 91, 92);
+}
+.crateBarrel{
+  border: solid darkgrey;    
+  /* height: 60px; */
+  /* width: 60px; */
+  padding: 10px;
+  width: 25%;
+  border-radius: 8px;
+  margin: 2px;
+  color: rgb(31, 49, 49);
 }
 .sectionContainer {
   border: dashed green;
@@ -54,6 +107,72 @@ nav {
 section {
   border: solid purple;
   border-width: 0.2px;
-  height: 9vh;
+  /* height: 9vh; */
   margin: 1em;
+}
+.amazonLogo{
+  width: 80px;
+  height: 80px;
+}
+.zaraLogo{
+  width: 80px;
+  height: 80px;
+}
+
+.Zara:hover{
+  background-color: rgb(209, 205, 205);
+}
+
+.appleLogo{
+  width: 80px;
+  height: 80px;
+}
+
+.Apple:hover{
+  background-color: rgb(209, 205, 205);
+}
+
+.crateBarrel:hover{
+  background-color: rgb(209, 205, 205);
+}
+.cbLogo{
+  width: 80px;
+  height: 80px;
+}
+table, th, td {
+  border:1px solid black;
+  
+}
+table{
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+
+}
+ .espresso{
+  border-color: solid red;
+  width: 20px;
+  height: 20px;
+
+ }
+.desktop{
+  border-color: solid red;
+  width: 20px;
+  height: 20px;
+}
+
+.desktopimg{
+  height: 50px;
+  width: 50px;
+
+}
+.espressoimg{
+  height: 50px;
+  width: 50px;
+  
+}
+.section2{
+  border-color: solid red;
 }
